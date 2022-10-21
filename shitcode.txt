@@ -1,0 +1,6 @@
+def absolute_value(value):
+    if str(value)[0]=='-':
+        value = -1 * value
+        return value
+    else:
+        return value
